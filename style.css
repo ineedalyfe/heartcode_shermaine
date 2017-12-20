@@ -1,0 +1,29 @@
+#image{
+    width: 365;
+    height: 274;
+}
+#header{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding-top: 15px;
+    margin-top: 55px;
+  }
+
+  img.center {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  body{
+    
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .jumbotron { 
+      background-color: white;
+  }
