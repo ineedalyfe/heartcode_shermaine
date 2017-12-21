@@ -19,11 +19,48 @@ footer {
       margin-right:auto;
   }
 
+@font-face {
+    font-family: fontC; src: url("fontC.ttf");
+}
+
   body{
     
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: fontC ; 
+      src:url(C:\Users\admin\Desktop\heartcode\fontC.ttf) ;
+      font-size: 2em;
   }
 
   .jumbotron { 
       background-color: white;
   }
+
+
+  a { 
+      color : black;
+  }
+
+  .rounded {
+    border-radius: 50%;
+  }
+
+  .panel-body {
+      background-color:rgba(166, 240, 106, 0.301);
+  }
+.navbar {
+    margin-bottom:0px;
+}
+
+body {
+    background-image: url(https://asdb.az.gov/wp-content/uploads/sites/3/2015/12/background_gradient_blue.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.panel-title {
+    font-size: 36px
+}
+
+/* .sliderimg {
+    height:300px;
+    width: 300px;
+} */
